@@ -13,7 +13,8 @@ inline bool isCharNum(char character) {
     return '0' <= character && character <= '9';
 }
 
-int strToInt(const string& str) {
+int strint(const string& str) {
+    
     if (str.empty()) return 0;
 
     int result = 0, sign = 1, i = 0;
@@ -37,7 +38,8 @@ int strToInt(const string& str) {
 // "-1" is valid
 // Handles numbers from "-2147483648" to "2147483647"
 
-string intToStr(int num) {
+string intstr(int num) {
+    
     if (num == 0) return "0";
     if (num == -2147483648) return "2147483648"; // Absolute value
 
