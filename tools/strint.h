@@ -19,7 +19,7 @@ int strint(const string& str) {
     int result = 0, sign = 1, i = 0;
 
     while (i < str.size() && !isCharNum(str[i])) {
-        if (str[i] == '-') sign *= -1;
+        if (str[i] == '-') sign = -sign;
         else if (str[i] != '+') return 0;
         ++i;
     }
