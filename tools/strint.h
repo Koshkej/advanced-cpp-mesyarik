@@ -40,7 +40,7 @@ int strint(const string& str) {
 string intstr(int num) {
     
     if (num == 0) return "0";
-    if (num == -2147483648) return "2147483647"; // Absolute value
+    if (num == -2147483648) return "-2147483648"; // Absolute value
 
     string result;
     bool isNegative = (num < 0);
