@@ -1,12 +1,5 @@
 **Fork from https://github.com/tonitaga/Graph-Algorithms-CPP-Console/blob/main/README.md**
 
-
-![image](https://habrastorage.org/webt/vx/ar/c7/vxarc7sxcmehpzxvfcxbkphzdv8.png)
-
-> Всем привет! Меня зовут **Нурислам (aka tonitaga)**,и сегодня я бы вам хотел рассказать об **Базовых алгоритмах на графах**.
-
-<cut/>
-
 ## Что такое граф?
 
 -  Я не стану подробно описывать, что такое граф, так как полно других источников, но скажу, что задача из ОГЭ(ЕГЭ) по информатике на нахождение кратчайшего пути, это и есть граф.
