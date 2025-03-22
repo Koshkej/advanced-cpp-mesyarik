@@ -5,6 +5,8 @@
 using std::string;
 using std::reverse;
 
+// TEST
+
 // If the input is invalid, return 0 without throwing an exception (!)
 // "---+-323" is valid, but "-232-3" is not valid
 
