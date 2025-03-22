@@ -5,8 +5,10 @@
 using std::string;
 using std::reverse;
 
+//
 // If the input is invalid, return 0 without throwing an exception (!)
 // "---+-323" is valid, but "-232-3" is not valid
+//
 
 inline bool isCharNum(char character) {
     return '0' <= character && character <= '9';
@@ -34,8 +36,10 @@ int strint(const string& str) {
     return result * sign;
 }
 
+//
 // "-1" is valid
 // Handles numbers from "-2147483648" to "2147483647"
+//
 
 string intstr(int num) {
     
