@@ -1,5 +1,4 @@
 C++ Course — MIPT FPMI (Advanced Flow)
 Lecturer: Ilya Meshcherin
 Department: Faculty of Applied Mathematics and Informatics (FPMI), MIPT
-
-This repository contains a set of materials and notes from an advanced C++ course taught at MIPT by Ilya Meshcherin.
+A a set of materials and notes from an advanced C++ course.
